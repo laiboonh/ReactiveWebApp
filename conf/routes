@@ -1,0 +1,1 @@
+GET /stats/:person controllers.StatsController.stats(person:models.Person)
