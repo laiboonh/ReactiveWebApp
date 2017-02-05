@@ -1,1 +1,2 @@
 GET /stats/:person controllers.StatsController.stats(person:models.Person)
+GET /test/:message controllers.TestController.test(message:String)
